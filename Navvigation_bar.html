@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavigationBar</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: rgb(246, 247, 240);
+        }
+
+        .header {
+            background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+        }
+
+        .header h2 {
+            font-size: 4rem;
+            padding: 30px;
+        }
+
+        #navbar ul {
+            display: flex;
+            border-radius: 1px;
+            background-color: rgb(131, 124, 92);
+        }
+
+        #navbar ul li {
+            display: flex;
+            margin: 6px 40px;
+        }
+
+        #navbar ul li a {
+            color: black;
+            font-size: 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #navbar ul li a:hover {
+            color: rgb(155, 192, 229);
+            cursor: pointer;
+            opacity: .8;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h2 align=" center">Navigation Bar</h2>
+    </div>
+    <nav id="navbar">
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">Cources</a></li>
+            <li class="item"><a href="#">Practic Set</a></li>
+            <li class="item"><a href="#">About Us</a></li>
+            <li class="item"><a href="#">Contect Us</a></li>
+        </ul>
+
+    </nav>
+
+</body>
+
+</html>
